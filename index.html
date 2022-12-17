@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,35 +13,40 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-   <!--Navigation Section-->
-   <header id="head">
-    <a href="index.html">
-        <h1 id="logo">Anubis Game <i class="fa-solid fa-ankh"></i></h1>
-    </a>
-    <ul id="menu">
-        <li>
-            <a href="rules.html">Rules</a>
-        </li>
-        <li>
-            <a href="index.html" class="active">Game</a>
-        </li>
-    </ul>
-</header>
+    <!--Navigation Section-->
+    <header id="head">
+        <a href="index.html">
+            <h1 id="logo">Anubis Game <i class="fa-solid fa-ankh"></i></h1>
+        </a>
+        <ul id="menu">
+            <li>
+                <a href="rules.html">Rules</a>
+            </li>
+            <li>
+                <a href="index.html" class="active">Game</a>
+            </li>
+        </ul>
+    </header>
     <!--Game section-->
 
-    <section id = "game-area">
+    <section id="game-area">
         <div id="game-container">
 
             <div class="result">
-            <h1>Rock, Paper, Scissor</h1>
+                <h1>Make your move Challenger!</h1>
             </div>
 
-            <div class="score-board">
-                <div id="user-label" class="badge">Challenger</div>
-                <div id="computer-label" class="badge">Anubis</div>
-                <span id="user-score">0</span>:<span id="computer-score">0</span>
-            </div>
+            <ul class="score-board">
+                <li id="user-label" class="badge">
+                    CHALLENGER: <span id="user-score">0</span>
+                </li>
+                <li id="computer-label" class="badge">
+                    ANUBIS: <span id="computer-score">0</span>
+                </li>
+
+            </ul>
 
             <div class="choices">
                 <div class="choice" id="rock"><i class="fa-regular fa-hand-back-fist"></i></div>
@@ -50,7 +56,7 @@
 
 
         </div>
-        
+
     </section>
 
     <!--Social media Section Section-->
@@ -59,11 +65,13 @@
         <ul class="social">
             <li>
                 <a href="https://www.linkedin.com/in/juan-gallego-2a819a172/" target="_blank"
-                    aria-label="Visit Juan Gallego Instagram page (Opens in another page)"><i class="fa-brands fa-linkedin"></i></a>
+                    aria-label="Visit Juan Gallego Instagram page (Opens in another page)"><i
+                        class="fa-brands fa-linkedin"></i></a>
             </li>
             <li>
                 <a href="https://github.com/gallegodev/Portifolio-2" target="_blank"
-                    aria-label="Visit Juan Gallego Github page (Opens in another page)"><i class="fa-brands fa-github"></i></a>
+                    aria-label="Visit Juan Gallego Github page (Opens in another page)"><i
+                        class="fa-brands fa-github"></i></a>
             </li>
             <li>
                 <a href="http://twitter.com" target="_blank"
@@ -74,4 +82,5 @@
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

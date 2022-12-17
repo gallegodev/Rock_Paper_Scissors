@@ -86,25 +86,16 @@ body {
     flex-direction: column;
 }
 
-/* tic toc toe grid */
-
-
-
-button {
-    padding: 10px 20px;
-    margin-top: 70px;
-    border-radius: 10px;
-    background-color: #d4af37;
-    color: white;
-    border-color: r#d4af37;
-    transition: 200ms transform;
-    font-size: 18px;
-    font-family: "Zen Dots", sans-serif;
+.score-board{
+    font-size: 50px;
+    color: #000;
+    text-align: center;
 }
 
-button:hover {
-    cursor: pointer;
-    transform: translateY(-2px);
+.score-board>li{
+    list-style: none;
+    display: inline;
+    margin-right: 80px;
 }
 
 
