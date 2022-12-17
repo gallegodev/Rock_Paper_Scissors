@@ -30,6 +30,8 @@ function game(userChoice) {
         } else {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Challenger won!";
+            userScore++;
+            userScore_span.innerHTML = userScore;
         }
     } else if (userChoice === 'paper') {
         if (computerChoice === 'scissors') {
@@ -38,6 +40,8 @@ function game(userChoice) {
         } else {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Challenger won!";
+            userScore++;
+            userScore_span.innerHTML = userScore;
         }
     } else if (userChoice === 'scissors') {
         if (computerChoice === 'rock') {
@@ -46,6 +50,8 @@ function game(userChoice) {
         } else {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Challenger won!";
+            userScore++;
+            userScore_span.innerHTML = userScore;
         }
     }
 
