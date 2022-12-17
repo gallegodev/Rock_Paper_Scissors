@@ -116,6 +116,9 @@ body {
     font-size: 700%;
     margin: 2%;
     padding: 3%;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .choices i:hover {
