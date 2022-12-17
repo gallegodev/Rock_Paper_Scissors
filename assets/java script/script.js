@@ -10,16 +10,35 @@ let rock_div = document.getElementById("rock");
 let paper_div = document.getElementById("paper");
 let scissors_div = document.getElementById("scissors");
 
-/**Buttons Functions */
+/**Functions */
 
-rock_div.addEventListener('click', function() {
-    console.log("You are pressing the Rock!!!")
-})
+function getComputerChoice() {
+    let choices = ['rock', 'paper', 'scissors'];
+    let randomNumber =Math.floor(Math.random() * 3);
+    return choices[randomNumber];
+}
 
-paper_div.addEventListener('click', function() {
-    console.log("You are pressing the Paper!!!")
-})
+function game(userChoice) {
+    let computerChoice = getComputerChoice();
+    console.log(computerChoice);
+    console.log(userChoice);
+}
+game("d")
 
-scissors_div.addEventListener('click', function() {
-    console.log("You are pressing the Scissors!!!")
-})
+function main() {
+    rock_div.addEventListener('click', function () {
+        game("rock");
+
+    })
+
+    paper_div.addEventListener('click', function () {
+        game("paper");
+    })
+
+    scissors_div.addEventListener('click', function () {
+        game("scissors");
+    })
+
+}
+
+main();
