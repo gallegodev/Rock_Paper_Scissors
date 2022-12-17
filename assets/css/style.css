@@ -229,6 +229,15 @@ footer {
     #rule-of-game {
         padding: 50px
     }
+
+    button{
+        margin-left: 42%;
+    }
+
+    .score-board {
+        font-size: 40px;
+        margin-left: 60px;
+    }
 }
 
 
@@ -260,6 +269,10 @@ footer {
 
     }
 
+    .score-board {
+        font-size: 30px;
+    }
+
     .social i {
         padding: 7%;
     }
@@ -273,6 +286,10 @@ footer {
 
     #menu li {
         margin-right: 30px;
+    }
+
+    .score-board {
+        font-size: 20px;
     }
 }
 
