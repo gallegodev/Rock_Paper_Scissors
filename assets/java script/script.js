@@ -7,3 +7,8 @@ let result_div = document.querySelector(".result");
 let rock_div = document.getElementById("rock");
 let paper_div = document.getElementById("paper");
 let scissors_div = document.getElementById("scissors");
+
+
+rock_div.addEventListener('click', function() {
+    console.log("You are pressing the Rock!!!")
+})
