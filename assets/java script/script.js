@@ -9,6 +9,8 @@ let rock_div = document.getElementById("rock");
 let paper_div = document.getElementById("paper");
 let scissors_div = document.getElementById("scissors");
 
+let restartBtn = document.getElementById('restartBtn');
+
 /**Functions */
 
 function getComputerChoice() {
@@ -80,5 +82,19 @@ function main() {
     })
 
 }
+
+restartBtn.addEventListener('click', restart)
+
+function restart() {
+    let changeFrase = document.getElementById("mainFrase");
+    changeFrase.innerHTML = "Make your move challenger!";
+
+    let changeUserScore = document.getElementById("user-score");
+    changeUserScore.innerHTML = 0;
+
+    let changeComputerScore = document.getElementById("computer-score");
+    changeComputerScore.innerHTML = 0;
+}
+
 
 main();

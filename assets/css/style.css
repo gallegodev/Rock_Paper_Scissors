@@ -125,6 +125,25 @@ body {
     color: rgba(243, 184, 23, 0.8);
 }
 
+button {
+    padding: 10px 20px;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: #d4af37;
+    color: white;
+    border-color: r#d4af37;
+    transition: 200ms transform;
+    font-size: 18px;
+    font-family: "Zen Dots", sans-serif;
+    margin-left: 45%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+
 
 /* rules area section */
 
