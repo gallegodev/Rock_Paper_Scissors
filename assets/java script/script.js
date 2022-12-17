@@ -4,8 +4,7 @@ let userScore = 0;
 let computerScore = 0;
 let userScore_span = document.getElementById("user-score");
 let computerScore_span = document.getElementById("computer-score");
-let scoreBoard_div = document.querySelector(".score-board");
-let result_div = document.querySelector(".result");
+
 let rock_div = document.getElementById("rock");
 let paper_div = document.getElementById("paper");
 let scissors_div = document.getElementById("scissors");
@@ -27,6 +26,8 @@ function game(userChoice) {
         if (computerChoice === 'paper') {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Anubis Won!";
+            computerScore++;
+            computerScore_span.innerHTML = computerScore;
         } else {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Challenger won!";
@@ -37,6 +38,8 @@ function game(userChoice) {
         if (computerChoice === 'scissors') {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Anubis Won!";
+            computerScore++;
+            computerScore_span.innerHTML = computerScore;
         } else {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Challenger won!";
@@ -47,6 +50,8 @@ function game(userChoice) {
         if (computerChoice === 'rock') {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Anubis Won!";
+            computerScore++;
+            computerScore_span.innerHTML = computerScore;
         } else {
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = "Challenger won!";
