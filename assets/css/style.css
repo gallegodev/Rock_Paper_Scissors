@@ -66,7 +66,7 @@ body {
 #game-area {
     height: 775px;
     width: 100%;
-    background-image: url(../images/background7.jpg);
+    background-image: url(../images/background2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +76,14 @@ body {
     font-size: 50px;
     color: #d4af37;
     font-family: "Russo One", sans-serif;
+}
+
+#game-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* tic toc toe grid */
