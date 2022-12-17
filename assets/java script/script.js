@@ -14,16 +14,45 @@ let scissors_div = document.getElementById("scissors");
 
 function getComputerChoice() {
     let choices = ['rock', 'paper', 'scissors'];
-    let randomNumber =Math.floor(Math.random() * 3);
+    let randomNumber = Math.floor(Math.random() * 3);
     return choices[randomNumber];
 }
 
 function game(userChoice) {
     let computerChoice = getComputerChoice();
-    console.log(computerChoice);
-    console.log(userChoice);
+    if (userChoice === computerChoice) {
+        let changeFrase = document.getElementById("mainFrase");
+        changeFrase.innerHTML = "Its a tie!";
+    } else if (userChoice === 'rock') {
+        if (computerChoice === 'paper') {
+            let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Anubis Won!";
+        } else {
+            let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Challenger won!";
+        }
+    } else if (userChoice === 'paper') {
+        if (computerChoice === 'scissors') {
+            let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Anubis Won!";
+        } else {
+            let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Challenger won!";
+        }
+    } else if (userChoice === 'scissors') {
+        if (computerChoice === 'rock') {
+            let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Anubis Won!";
+        } else {
+            let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Challenger won!";
+        }
+    }
+
 }
-game("d")
+
+
+
 
 function main() {
     rock_div.addEventListener('click', function () {
