@@ -76,11 +76,11 @@ body {
     font-size: 50px;
     color: #d4af37;
     font-family: "Russo One", sans-serif;
+    text-align: center;
 }
 
 #game-container {
     padding: 40px;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -96,6 +96,28 @@ body {
     list-style: none;
     display: inline;
     margin-right: 80px;
+}
+/*Rock, Paper, Scissors Options*/
+
+.choices {
+    text-align: center;
+}
+
+.choices>li {
+    list-style: none;
+    display: inline;
+
+}
+
+.choices i {
+    color: black;
+    font-size: 400%;
+    margin: 2%;
+    padding: 1%;
+}
+
+.choices i:hover {
+    color: rgba(243, 184, 23, 0.8);
 }
 
 
