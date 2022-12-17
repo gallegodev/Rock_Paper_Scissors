@@ -25,36 +25,36 @@ function game(userChoice) {
     } else if (userChoice === 'rock') {
         if (computerChoice === 'paper') {
             let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Anubis Won!";
+            changeFrase.innerHTML = `${computerChoice} beats ${userChoice}, Anubis Won!`;
             computerScore++;
             computerScore_span.innerHTML = computerScore;
         } else {
             let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Challenger won!";
+            changeFrase.innerHTML = `${userChoice} beats ${computerChoice}, Challenger Won!`;
             userScore++;
             userScore_span.innerHTML = userScore;
         }
     } else if (userChoice === 'paper') {
         if (computerChoice === 'scissors') {
             let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Anubis Won!";
+            changeFrase.innerHTML = `${computerChoice} beats ${userChoice}, Anubis Won!`;
             computerScore++;
             computerScore_span.innerHTML = computerScore;
         } else {
             let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Challenger won!";
+            changeFrase.innerHTML = `${userChoice} beats ${computerChoice}, Challenger Won!`;
             userScore++;
             userScore_span.innerHTML = userScore;
         }
     } else if (userChoice === 'scissors') {
         if (computerChoice === 'rock') {
             let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Anubis Won!";
+            changeFrase.innerHTML = `${computerChoice} beats ${userChoice}, Anubis Won!`;
             computerScore++;
             computerScore_span.innerHTML = computerScore;
         } else {
             let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Challenger won!";
+            changeFrase.innerHTML = `${userChoice} beats ${computerChoice}, Challenger Won!`;
             userScore++;
             userScore_span.innerHTML = userScore;
         }
