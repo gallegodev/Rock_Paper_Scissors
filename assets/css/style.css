@@ -87,22 +87,24 @@ body {
     flex-direction: column;
 }
 
-.score-board{
+.score-board {
     font-size: 50px;
     color: #000;
     text-align: center;
     margin-top: 50px;
 }
 
-.score-board>li{
+.score-board>li {
     list-style: none;
     display: inline;
     margin-right: 80px;
 }
+
 /*Rock, Paper, Scissors Options*/
 
 .choices {
     text-align: center;
+    margin-top: 30px;
 }
 
 .choices>li {
@@ -125,6 +127,14 @@ body {
     color: rgba(243, 184, 23, 0.8);
 }
 
+#button-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 button {
     padding: 10px 20px;
     margin-top: 70px;
@@ -135,7 +145,6 @@ button {
     transition: 200ms transform;
     font-size: 18px;
     font-family: "Zen Dots", sans-serif;
-    margin-left: 45%;
 }
 
 button:hover {
@@ -230,10 +239,6 @@ footer {
         padding: 50px
     }
 
-    button{
-        margin-left: 42%;
-    }
-
     .score-board {
         font-size: 40px;
         margin-left: 60px;
@@ -246,6 +251,10 @@ footer {
 
 @media screen and (max-width: 770px) {
 
+    .choices {
+        margin-top: 30px;
+    }
+
     #rules-area {
         height: 900px;
     }
@@ -253,6 +262,7 @@ footer {
     .social i {
         padding: 5%;
     }
+
 }
 
 /*For larger to medium screens size from 650px wide and down*/
@@ -265,7 +275,7 @@ footer {
     }
 
     #game-area h1 {
-        font-size: 40px;
+        font-size: 45px;
 
     }
 
@@ -279,6 +289,14 @@ footer {
 
 }
 
+/*For larger to medium screens size from 550px wide and down*/
+
+@media screen and (max-width: 550px) {
+    .choices i {
+        font-size: 600%
+    }
+}
+
 
 /*For larger to medium screens size from 540px wide and down*/
 
@@ -289,14 +307,14 @@ footer {
     }
 
     .score-board {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
 
-/*For larger to medium screens size from 490px wide and down*/
+/*For larger to medium screens size from 495px wide and down*/
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 495px) {
 
     #logo {
         font-size: 200%;
@@ -306,16 +324,13 @@ footer {
         font-size: 35px;
     }
 
-    .box {
-        width: 130px;
+    .score-board {
+        font-size: 25px;
+        margin-left: 47px;
     }
 
     #gameboard {
         margin-left: 90px;
-    }
-
-    button {
-        margin-right: 15px;
     }
 
     #rule-of-game h1 {
@@ -326,6 +341,21 @@ footer {
         font-size: 35px;
     }
 
+}
+
+/*For larger to medium screens size from 480px wide and down*/
+
+@media screen and (max-width: 480px) {
+    .choices i {
+        font-size: 400%;
+        margin: 2%;
+        padding: 3%;
+
+    }
+
+    .score-board {
+        margin-left: 50px;
+    }
 }
 
 /*For larger to medium screens size from 440px wide and down*/
@@ -381,10 +411,6 @@ footer {
 
 @media screen and (max-width: 410px) {
 
-    .box {
-        width: 125px;
-    }
-
     #game-area h1 {
         font-size: 25px;
         margin-right: 20px;
@@ -392,10 +418,6 @@ footer {
 
     .container {
         margin-left: 30px;
-    }
-
-    button {
-        margin-right: 30px;
     }
 
 
@@ -422,7 +444,7 @@ footer {
     #rules-area {
         height: 1100px;
     }
-    
+
     #rule-of-game {
         padding: 40px;
     }
@@ -431,12 +453,18 @@ footer {
         padding: 9%;
     }
 
+    .choices i {
+        font-size: 300%;
+        margin: 2%;
+        padding: 3%;
+
+    }
 }
 
 /*For larger to medium screens size from 335px wide and down*/
 
 @media screen and (max-width: 335px) {
-    
+
     #rule-of-game {
         padding: 30px;
     }
