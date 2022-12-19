@@ -247,7 +247,13 @@ footer {
     }
 }
 
+/*For larger to medium screens size from 800px wide and down*/
 
+@media screen and (max-width: 800px) {
+    #rules-area {
+        height: 900px;
+    }
+}
 
 /*For larger to medium screens size from 770px wide and down*/
 
@@ -257,9 +263,6 @@ footer {
         margin-top: 30px;
     }
 
-    #rules-area {
-        height: 900px;
-    }
 
     .social i {
         padding: 5%;
@@ -289,6 +292,9 @@ footer {
         padding: 7%;
     }
 
+    #rules-area {
+        height: 1000px;
+    }
 }
 
 /*For larger to medium screens size from 550px wide and down*/
@@ -296,6 +302,10 @@ footer {
 @media screen and (max-width: 550px) {
     .choices i {
         font-size: 600%
+    }
+
+    #rules-area {
+        height: 1100px;
     }
 }
 
@@ -410,10 +420,6 @@ footer {
         font-size: 150%;
     }
 
-    #rules-area {
-        height: 1000px;
-    }
-
     #rule-of-game h1 {
         font-size: 50px;
     }
@@ -444,6 +450,10 @@ footer {
         font-size: 120%;
     }
 
+    #rules-area {
+        height: 1200px;
+    }
+
     #rule-of-game h1 {
         font-size: 45px;
     }
@@ -464,7 +474,7 @@ footer {
     }
 
     #rule-of-game {
-        padding: 40px;
+        padding: 30px;
     }
 
     .social i {
@@ -484,7 +494,7 @@ footer {
 @media screen and (max-width: 335px) {
 
     #rule-of-game {
-        padding: 30px;
+        padding: 25px;
     }
 
 }
@@ -516,9 +526,8 @@ footer {
         font-size: 35px;
     }
 
-    .box {
-        height: 125px;
-        width: 124px;
+    #rule-of-game {
+        padding: 20px;
     }
 
     footer {
