@@ -80,10 +80,10 @@ function game(userChoice) {
         }
     }
     if (userScore === 5){
-        let changeFrase = document.getElementById("mainFrase");
+        let changeFrase = document.getElementById("victoryFrase");
             changeFrase.innerHTML = "Challenger won  the match!";
     } else if (computerScore === 5){
-        let changeFrase = document.getElementById("mainFrase");
+        let changeFrase = document.getElementById("victoryFrase");
             changeFrase.innerHTML = "Anubis won the match!";
     }
 }
