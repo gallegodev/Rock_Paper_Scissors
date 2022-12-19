@@ -23,13 +23,14 @@ function getComputerChoice() {
 }
 
 function wiinerOfMatch (){
-    if (computerScore === 10){
+    if (computerScore === 10 ){
         let changeFrase = document.getElementById("mainFrase");
         changeFrase.innerHTML = "Anubis Won";
-    } else if (userScore === 10){
+    } else if (userScore_span === 10){
         let changeFrase = document.getElementById("mainFrase");
         changeFrase.innerHTML = "Challenger Won!";
     }
+
 
 }
 
@@ -89,7 +90,7 @@ function game(userChoice) {
             userScore_span.innerHTML = userScore;
         }
     }
-
+    
 }
 
 
@@ -110,6 +111,7 @@ function main() {
         game("scissors");
         countOfPlays++;
     });
+    
     
     
 }
