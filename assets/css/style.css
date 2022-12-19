@@ -12,6 +12,13 @@ body {
     color: #000;
 }
 
+header {
+    position: sticky;
+    width: 100vw;
+    top: 0px;
+}
+
+
 #head {
     overflow: hidden;
     background-image: url(../images/background1.jpg);
@@ -74,7 +81,7 @@ body {
 
 #game-area h1 {
     font-size: 50px;
-    color: #d4af37;
+    color: gold;
     font-family: "Russo One", sans-serif;
     text-align: center;
     margin-top: 30px;
@@ -141,9 +148,9 @@ button {
     padding: 10px 20px;
     margin-top: 70px;
     border-radius: 10px;
-    background-color: #d4af37;
-    color: white;
-    border-color: #d4af37;
+    background-color: gold;
+    color: black;
+    border-color: gold;
     transition: 200ms transform;
     font-size: 18px;
     font-family: "Zen Dots", sans-serif;
