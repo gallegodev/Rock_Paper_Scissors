@@ -79,7 +79,7 @@ header {
     background-size: cover;
 }
 
-#game-area h1 {
+#game-area h2 {
     font-size: 50px;
     color: gold;
     font-family: "Russo One", sans-serif;
@@ -131,7 +131,8 @@ header {
 }
 
 .choices i:hover {
-    color: rgba(243, 184, 23, 0.8);
+    color: gold;
+    cursor: pointer;
 }
 
 /*Restart Button*/
@@ -286,7 +287,7 @@ footer {
         padding: 7%;
     }
 
-    #game-area h1 {
+    #game-area h2 {
         font-size: 45px;
 
     }
@@ -335,7 +336,7 @@ footer {
         font-size: 200%;
     }
 
-    #game-area h1 {
+    #game-area h2 {
         font-size: 35px;
     }
 
@@ -389,7 +390,7 @@ footer {
 
 @media screen and (max-width: 440px) {
 
-    #game-area h1 {
+    #game-area h2 {
         font-size: 30px;
     }
 
@@ -434,7 +435,7 @@ footer {
 
 @media screen and (max-width: 410px) {
 
-    #game-area h1 {
+    #game-area h2 {
         font-size: 25px;
         margin-right: 20px;
     }
