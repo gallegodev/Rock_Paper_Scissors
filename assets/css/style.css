@@ -127,6 +127,8 @@ body {
     color: rgba(243, 184, 23, 0.8);
 }
 
+/*Restart Button*/
+
 #button-container {
     padding: 40px;
     display: flex;
@@ -527,4 +529,12 @@ footer {
         padding: 7%;
     }
 
+}
+
+/*For larger to medium screens size from 310px wide and down*/
+
+@media screen and (max-width: 310px) {
+    .score-board {
+        font-size: 25px;
+    }
 }
