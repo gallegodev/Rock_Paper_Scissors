@@ -81,10 +81,10 @@ function game(userChoice) {
     }
     if (userScore === 5){
         let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Challenger won match";
+            changeFrase.innerHTML = "Challenger won  the match!";
     } else if (computerScore === 5){
         let changeFrase = document.getElementById("mainFrase");
-            changeFrase.innerHTML = "Anubis won the match";
+            changeFrase.innerHTML = "Anubis won the match!";
     }
 }
 
