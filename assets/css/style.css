@@ -143,7 +143,7 @@ button {
     border-radius: 10px;
     background-color: #d4af37;
     color: white;
-    border-color: r#d4af37;
+    border-color: #d4af37;
     transition: 200ms transform;
     font-size: 18px;
     font-family: "Zen Dots", sans-serif;
@@ -270,7 +270,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 650px wide and down*/
+/*For medium to small screens  size from 650px wide and down*/
 
 @media screen and (max-width: 650px) {
 
@@ -288,16 +288,12 @@ footer {
         font-size: 30px;
     }
 
-    .social i {
-        padding: 7%;
-    }
-
     #rules-area {
         height: 1000px;
     }
 }
 
-/*For larger to medium screens size from 550px wide and down*/
+/*For medium to small screens  size from 550px wide and down*/
 
 @media screen and (max-width: 550px) {
     .choices i {
@@ -310,7 +306,7 @@ footer {
 }
 
 
-/*For larger to medium screens size from 540px wide and down*/
+/*For medium to small screens  size from 540px wide and down*/
 
 @media screen and (max-width: 540px) {
 
@@ -324,7 +320,7 @@ footer {
 }
 
 
-/*For larger to medium screens size from 495px wide and down*/
+/*For medium to small screens  size from 495px wide and down*/
 
 @media screen and (max-width: 495px) {
 
@@ -355,7 +351,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 480px wide and down*/
+/*For medium to small screens  size from 480px wide and down*/
 
 @media screen and (max-width: 480px) {
     .choices i {
@@ -371,10 +367,10 @@ footer {
     }
 }
 
-/*For larger to medium screens size from 445px wide and down*/
+/*For medium to small screens  size from 445px wide and down*/
 
 @media screen and (max-width: 445px) {
-  
+
 
     .score-board {
         margin-left: 80px;
@@ -382,7 +378,7 @@ footer {
     }
 }
 
-/*For larger to medium screens size from 440px wide and down*/
+/*For medium to small screens  size from 440px wide and down*/
 
 @media screen and (max-width: 440px) {
 
@@ -393,6 +389,7 @@ footer {
     .container {
         margin-left: 10px;
     }
+
     .social i {
         padding: 10%;
     }
@@ -408,7 +405,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 425px wide and down*/
+/*For medium to small screens  size from 425px wide and down*/
 
 @media screen and (max-width: 425px) {
 
@@ -426,7 +423,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 410px wide and down*/
+/*For medium to small screens  size from 410px wide and down*/
 
 @media screen and (max-width: 410px) {
 
@@ -442,7 +439,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 390px wide and down*/
+/*For medium to small screens  size from 390px wide and down*/
 
 @media screen and (max-width: 390px) {
 
@@ -460,7 +457,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 350px wide and down*/
+/*For medium to small screens size from 355px wide and down*/
 
 @media screen and (max-width: 355px) {
 
@@ -489,7 +486,7 @@ footer {
     }
 }
 
-/*For larger to medium screens size from 335px wide and down*/
+/*For medium to small screens  size from 335px wide and down*/
 
 @media screen and (max-width: 335px) {
 
@@ -499,7 +496,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 320px wide and down*/
+/*For medium to small screens size from 320px wide and down*/
 
 @media screen and (max-width: 320px) {
 
@@ -540,7 +537,7 @@ footer {
 
 }
 
-/*For larger to medium screens size from 310px wide and down*/
+/*For medium to small screens size from 310px wide and down*/
 
 @media screen and (max-width: 310px) {
     .score-board {
@@ -548,7 +545,7 @@ footer {
     }
 }
 
-/*For larger to medium screens size from 295px wide and down*/
+/*For medium to small screens size from 295px wide and down*/
 
 @media screen and (max-width: 295px) {
     .score-board {
