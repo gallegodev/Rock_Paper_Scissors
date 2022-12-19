@@ -7,6 +7,12 @@
 
 }
 
+#victoryFrase {
+    font-size: 50px;
+    color: gold;
+}
+
+
 body {
     font-family: "Bebas Neue", sans-serif;
     color: #000;

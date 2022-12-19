@@ -22,17 +22,6 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
-function wiinerOfMatch (){
-    if (computerScore === 10 ){
-        let changeFrase = document.getElementById("mainFrase");
-        changeFrase.innerHTML = "Anubis Won";
-    } else if (userScore_span === 10){
-        let changeFrase = document.getElementById("mainFrase");
-        changeFrase.innerHTML = "Challenger Won!";
-    }
-
-
-}
 
 /**Function that decides the winner */
 function game(userChoice) {
@@ -90,7 +79,13 @@ function game(userChoice) {
             userScore_span.innerHTML = userScore;
         }
     }
-    
+    if (userScore === 5){
+        let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Challenger won match";
+    } else if (computerScore === 5){
+        let changeFrase = document.getElementById("mainFrase");
+            changeFrase.innerHTML = "Anubis won the match";
+    }
 }
 
 
@@ -113,8 +108,9 @@ function main() {
     });
     
     
-    
 }
+
+
 
 /**Function for restart buttom */
 
