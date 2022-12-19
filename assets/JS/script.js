@@ -2,6 +2,7 @@
 
 let userScore = 0;
 let computerScore = 0;
+let countOfPlays = 0;
 let userScore_span = document.getElementById("user-score");
 let computerScore_span = document.getElementById("computer-score");
 
@@ -19,6 +20,17 @@ function getComputerChoice() {
     let choices = ['rock', 'paper', 'scissors'];
     let randomNumber = Math.floor(Math.random() * 3);
     return choices[randomNumber];
+}
+
+function wiinerOfMatch (){
+    if (computerScore === 10){
+        let changeFrase = document.getElementById("mainFrase");
+        changeFrase.innerHTML = "Anubis Won";
+    } else if (userScore === 10){
+        let changeFrase = document.getElementById("mainFrase");
+        changeFrase.innerHTML = "Challenger Won!";
+    }
+
 }
 
 /**Function that decides the winner */
@@ -86,17 +98,20 @@ function game(userChoice) {
 function main() {
     rock_div.addEventListener('click', function () {
         game("rock");
-
+        countOfPlays++;
     });
 
     paper_div.addEventListener('click', function () {
         game("paper");
+        countOfPlays++;
     });
 
     scissors_div.addEventListener('click', function () {
         game("scissors");
+        countOfPlays++;
     });
-
+    
+    
 }
 
 /**Function for restart buttom */
