@@ -78,6 +78,6 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 </ul>
 <br>
 
-<img src="assets/images/restart_buttom.jpg" alt="presentation of restart buttom from Anubis Game, game section">
+<img src="assets/images/gameAreaSub5.jpg" alt="presentation of restart buttom from Anubis Game, game section">
 <hr>
 
