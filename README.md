@@ -59,3 +59,25 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 </ul>
 
 <hr>
+<br>
+<h2>Game options and results</h2>
+<br>
+<ul>
+    <li>
+        <p>When the user clicks in one the rock, paper, scissors buttom the Java Script code chooses arandom option for the Computer player (in this case "Anubis").</p>
+    </li>
+    <li>
+        <p>Once the 2 choices are made in between the User and the Computer, the results are displayed on the top of the game section.</p>
+    </li>
+    <li>
+        <p>The winner will be the first who makes 5 point at the score section.</p>
+    </li>
+    <li>
+        <p>Once the 5 points are achieved, a text in dark blue color will be shown with the result of winner of the match, and the rock, paper, scissor option wont able to be selected anymore.</p>
+    </li>
+</ul>
+<br>
+
+<img src="assets/images/restart_buttom.jpg" alt="presentation of restart buttom from Anubis Game, game section">
+<hr>
+
