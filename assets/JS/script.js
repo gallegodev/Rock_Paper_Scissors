@@ -2,7 +2,7 @@
 
 let userScore = 0;
 let computerScore = 0;
-let countOfPlays = 0;
+
 let userScore_span = document.getElementById("user-score");
 let computerScore_span = document.getElementById("computer-score");
 
@@ -85,7 +85,7 @@ function game(userChoice) {
         let changeFrase = document.getElementById("victoryFrase");
             changeFrase.innerHTML = "Challenger won  the match!";
     } else if (computerScore === 5){
-        game = false
+        game = false;
         let changeFrase = document.getElementById("victoryFrase");
             changeFrase.innerHTML = "Anubis won the match!";
     }
