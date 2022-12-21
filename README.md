@@ -80,4 +80,25 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 
 <img src="assets/images/gameAreaSub5.jpg" alt="presentation of restart buttom from Anubis Game, game section">
 <hr>
+<br>
+
+# Rules Page
+
+<h2>Game rules Section</h2>
+<br>
+<ul>
+    <li>
+        <p>Gives to the user a quick introduction of the story of the game and how to win.</p>
+    </li>
+    <li>
+        <p>Explains to the user the Rock, Paper, Scissors options and what they do.</p>
+    </li>
+    <li>
+        <p>Also in this section the user will find how to win the match.</p>
+    </li>
+</ul>
+<img src="assets/images/rulesSection1.jpg" alt="presentation of restart buttom from Anubis Game, game section">
+<hr>
+
+
 
