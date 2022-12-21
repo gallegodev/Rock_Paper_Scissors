@@ -7,16 +7,6 @@
 
 }
 
-#victoryFrase {
-    font-size: 30px;
-    color: red;
-    font-family: "Russo One", sans-serif;
-    text-align: center;
-    margin-top: 30px;
-}
-
-
-
 body {
     font-family: "Bebas Neue", sans-serif;
     color: #000;
@@ -98,6 +88,16 @@ body {
     flex-direction: column;
 }
 
+/* Frase for match winner*/
+#victoryFrase {
+    font-size: 30px;
+    color: rgb(1, 1, 133);
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Score Board*/
 .score-board {
     font-size: 50px;
     color: #000;
