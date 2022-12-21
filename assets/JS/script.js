@@ -80,9 +80,11 @@ function game(userChoice) {
         }
     }
     if (userScore === 5){
+        game = false;
         let changeFrase = document.getElementById("victoryFrase");
             changeFrase.innerHTML = "Challenger won  the match!";
     } else if (computerScore === 5){
+        game = false
         let changeFrase = document.getElementById("victoryFrase");
             changeFrase.innerHTML = "Anubis won the match!";
     }
@@ -94,17 +96,17 @@ function game(userChoice) {
 function main() {
     rock_div.addEventListener('click', function () {
         game("rock");
-        countOfPlays++;
+        
     });
 
     paper_div.addEventListener('click', function () {
         game("paper");
-        countOfPlays++;
+        
     });
 
     scissors_div.addEventListener('click', function () {
         game("scissors");
-        countOfPlays++;
+        
     });
     
     
