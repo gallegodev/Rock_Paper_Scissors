@@ -7,3 +7,22 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <img src="assets/images/mediaScreenPicture.jpg" alt="Presentation of Anubis Game website with several different screen sizes">
 
 # Features of Home Page
+
+<h2>The Header</h2>
+<br>
+<ul>
+    <li>
+        <p>Feature at the top of the page, the naviagtion shows the game name in the left corner: Anubis Game that links to the home page.</p>
+    </li>
+    <li>
+        <p>The other navigation links are to the right: Game and Rules</p>
+    </li>
+    <li>
+        <p>Gameand Rules has a hoover style that underlines the page the user is on and change the color to gold color.</p>
+    </li>
+    <li>
+        <p>The navigation clearly tells the user the name of the game and website and makes the different sections of information easy to find.</p>
+    </li>
+</ul>
+
+<img src="assets/images/navigation1.jpg" alt="Presentation of Anubis Game menu navigation">
