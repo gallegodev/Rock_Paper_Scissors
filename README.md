@@ -81,8 +81,19 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <img src="assets/images/gameAreaSub5.jpg" alt="presentation of restart buttom from Anubis Game, game section">
 <hr>
 <br>
+<<h2>Social media Section</h2>
+<ul>
+    <li>
+        <p>This section has the Symbols from GitHub, Instagran and Linkedln and all of them are linked with gallegodev, developerer of this website, respective social media pages.</p>  
+    </li>
+    <li>
+        <p>All the 3 Symbols have a hoover style so if the user has the arrow from the mouse pad on top of it the symbol will change color, giving the impression that the symbol is active and is functional to the user</p>
+    </li>
+<img src="assets/images/footerLinks.jpg" alt="presentation of social media symbols from gallegodev developer creator of Anubis Game website.">
+<hr>
 
-# Rules Page
+
+# Rules Page Features
 
 <h2>Game rules Section</h2>
 <br>
@@ -97,8 +108,10 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
         <p>Also in this section the user will find how to win the match.</p>
     </li>
 </ul>
-<img src="assets/images/rulesSection1.jpg" alt="presentation of restart buttom from Anubis Game, game section">
+<img src="assets/images/rulesSection1.jpg" alt="presentation of rules section from Anubis Game.">
 <hr>
+
+# 
 
 
 
