@@ -140,11 +140,13 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
     <li>
         <p>No errors were returned when passing through the official (jigsaw) validator.</p>
     </li>
+</ul>
 <h2>JavaScript</h2>
 <ul>
     <li>
         <p>No errors were returned when passing through the official (JSHint) JavaScript Validator.</p>
     </li>
+</ul>
 <h2>Accessibility</h2>
 <ul>
     <li>
