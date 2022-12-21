@@ -79,6 +79,7 @@ function game(userChoice) {
             userScore_span.innerHTML = userScore;
         }
     }
+    /**Stops the match and gives a text to determine the match winner */
     if (userScore === 5){
         game = false;
         let changeFrase = document.getElementById("victoryFrase");
