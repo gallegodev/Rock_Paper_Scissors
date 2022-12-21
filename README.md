@@ -81,7 +81,7 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <img src="assets/images/gameAreaSub5.jpg" alt="presentation of restart buttom from Anubis Game, game section">
 <hr>
 <br>
-<<h2>Social media Section</h2>
+<h2>Social media Section</h2>
 <ul>
     <li>
         <p>This section has the Symbols from GitHub, Instagran and Linkedln and all of them are linked with gallegodev, developerer of this website, respective social media pages.</p>  
@@ -91,12 +91,13 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
     </li>
 <img src="assets/images/footerLinks.jpg" alt="presentation of social media symbols from gallegodev developer creator of Anubis Game website.">
 <hr>
+<br>
 
 
 # Rules Page Features
 
 <h2>Game rules Section</h2>
-<br>
+
 <ul>
     <li>
         <p>Gives to the user a quick introduction of the story of the game and how to win.</p>
@@ -111,7 +112,104 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <img src="assets/images/rulesSection1.jpg" alt="presentation of rules section from Anubis Game.">
 <hr>
 
-# 
+# Testing
+
+<ul>
+    <li>
+        <p>I tested that this page works in different browsers: Chrome, Firefox, Safari.</p>
+    </li>
+    <li>
+        <p>I confirm that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.</p>
+    </li>
+     <li>
+        <p>I confirmed that naviagtion, header, Game, Rules text are all readable and easy to understand.</p>
+    </li>
+    
+    
+# Validator Testing
+
+<h2>HTML</h2>
+<ul>
+    <li>
+        <p>No errors were returned when passing through the official W3C validator.</p>
+    </li>
+</ul>
+<br>
+<h2>CSS</h2>
+<ul>
+    <li>
+        <p>No errors were returned when passing through the official (jigsaw) validator.</p>
+    </li>
+<h2>JavaScript</h2>
+<ul>
+    <li>
+        <p>No errors were returned when passing through the official (JSHint) JavaScript Validator.</p>
+    </li>
+<h2>Accessibility</h2>
+<ul>
+    <li>
+        <p>I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools</p>
+    </li>
+</ul>
+<br>
+<h3>Game Webpage Accessibility Score</h3>
+<img src="assets/images/lighthouse_main_page.jpg" alt="presentation of Anubis Game index.html validator accessiblity score">
+<h3>Rules Webpage Accessibility Score</h3>
+<img src="assets/images/lighthouse_rules_page.jpg" alt="presentation of Anubis Game rules.html validator accessiblity score">
+<br>
+<h2>Unfixed Bugs</h2>
+<ul>
+    <li>
+        <p>No unfixed bugs</p>
+    </li>
+</ul>
+
+# Bugs
+
+<ul>
+    <li>
+        <p>No Bugs were found</p>
+    </li>
+</ul>
+
+# Deployment
+<h2>This site was deployed to GitHub pages. The steps to deploy are as follows:</h2>
+<ul>
+    <li>
+        <p>In the GitHub repository, navigate to the Settings tab</p>
+    </li>
+    <li>
+        <p>From the source section drop-down menu, select the Master Branch</p>
+    </li>
+    <li>
+        <p>Once the master branch has been selected, the page provided the link to the completed website.</p>
+    </li>
+</ul>
+<br>
+<p>The live link can be found here - <a href="https://gallegodev.github.io/Rock_Paper_Scissors/" target="_blank" aria-label=" Visit Anubis Game webpage (Opens in another page)">Anubis Game</a>
+
+# Credits
+<h2>Content</h2>
+<ul>
+    <li>
+        <p>The code to make social media<a href="https://gallegodev.github.io/love-running/" target="_blank" aria-label=" Visit Love Running webpage (Opens in another page)">Love Running</a> Project</p>
+    </li>
+</ul>
+<br>
+<h2>Media</h2>
+<ul>
+    <li>
+        <p>The images used on the website was taken from <a href="https://www.freepik.com/" target="_blank" aria-label=" Visit Freepick webpage (Opens in another page)">Freepick</a></p>
+    </li>
+    <li>
+        <p>The fonts used on the website was taken from <a href="https://fonts.google.com/" target="_blank" aria-label=" Visit Google Fonts webpage (Opens in another page)">Google Fonts</a></p>
+    </li>
+    <li>
+        <p>The symbols used on the website was taken from <a href="https://fontawesome.com/search" target="_blank" aria-label=" Visit Font Awesome webpage (Opens in another page)">Font Awesome</a></p>
+    </li>
+</ul>
+
+
 
 
 
