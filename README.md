@@ -30,11 +30,12 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 
 <h2>The Game Section</h2>
 <br>
-<img src="assets/images/gameAreaSection.jpg" alt="presentation of Anubis Game game sction">
+<img src="assets/images/gameAreaSection.jpg" alt="presentation of Anubis Game game section">
 <br>
 <ul>
     <li>
         <p>On the top the User will find the winner of the round with the user choice and the computer choice.</p>  
+        <img src="assets/images/gameAreaSub1.jpg" alt="presentation of Anubis Game game section">
     </li>
     <li>
         <p>Once the user score or the computer score reach the value of 5, the winner of the match is determined and an text in dark blue color will show up and tell the player who won the match.</p>  
