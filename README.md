@@ -54,7 +54,7 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
     </li>
     <li>
         <p>Also the user can find in this section a "RESTART" buttom that restart the game once match winner is determined </p>
-        <img src="assets/images/restar_buttom.jpg" alt="presentation of restart buttom from Anubis Game, game section">
+        <img src="assets/images/restart_buttom.jpg" alt="presentation of restart buttom from Anubis Game, game section">
     </li>
 </ul>
 
