@@ -54,7 +54,7 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
     </li>
     <li>
         <p>Also the user can find in this section a "RESTART" buttom that restart the game once match winner is determined </p>
-        <img src="assets/images/restart_buttom.jpg" alt="presentation of restart buttom from Anubis Game, game section">
+        <img src="assets/images/restartButtom.jpg" alt="presentation of restart buttom from Anubis Game, game section">
     </li>
 </ul>
 
@@ -155,9 +155,9 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 </ul>
 <br>
 <h3>Game Webpage Accessibility Score</h3>
-<img src="assets/images/lighthouse_main_page.jpg" alt="presentation of Anubis Game index.html validator accessiblity score">
+<img src="assets/images/lighthouseMainPage.jpg" alt="presentation of Anubis Game index.html validator accessiblity score">
 <h3>Rules Webpage Accessibility Score</h3>
-<img src="assets/images/lighthouse_rules_page.jpg" alt="presentation of Anubis Game rules.html validator accessiblity score">
+<img src="assets/images/lighthouseRulesPage.jpg" alt="presentation of Anubis Game rules.html validator accessiblity score">
 <br>
 <h2>Unfixed Bugs</h2>
 <ul>
