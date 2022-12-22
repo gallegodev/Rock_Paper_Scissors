@@ -33,26 +33,26 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <br>
 <ul>
     <li>
-        <p>Has a lovely image from the dessert and pyramids in a videogame style that gives a 2D retro game feeling to the users of the website.</p>  
+        <p>It has a beautiful image of the desert and pyramids in a video game style that gives a 2D retro gaming feel to the website users.</p>  
     </li>
     <li>
-        <p>On the top the User will find the winner of the round with the user choice and the computer choice.</p>  
+        <p>On the top, the User will find the winner of the round with the user choice and the computer choice.</p>  
         <img src="assets/images/gameAreaSub1.jpg" alt="presentation of user decision and computer decision with the winner of the round from Anubis Game, game section">
     </li>
     <li>
-        <p>Once the user score or the computer score reach the value of 5, the winner of the match is determined and an text in dark blue color will show up and tell the player who won the match.</p>  
+        <p>Once the user score or the computer score reaches the value of 5, the winner of the match is determined and a text in dark blue color will show up and tell the player who won the match.</p>  
         <img src="assets/images/gameAreaSub2.jpg" alt="presentation of winner text from Anubis Game, game section">
     </li>
     <li>
-        <p>The game section gives a score board to the user, so the user can keep track of who is winning the match.</p>
+        <p>The game section gives a scoreboard to the user, so the user can keep track of who is winning the match.</p>
         <img src="assets/images/gameAreaSub3.jpg" alt="presentation of score from Anubis Game, game section">
     </li>
     <li>
-        <p>The user also gets the Rock, Paper, Scissors buttoms option so he can select his or hers choice of preference </p>
+        <p>The user also gets the Rock, Paper, Scissors buttons option so he can select his or her choice of preference. </p>
         <img src="assets/images/gameAreaSub4.jpg" alt="presentation of game option buttoms from Anubis Game, game section">
     </li>
     <li>
-        <p>Also the user can find in this section a "RESTART" buttom that restart the game once match winner is determined </p>
+        <p>Also, the user can find in this section a "RESTART" button that restarts the game once the match winner is determined. </p>
         <img src="assets/images/restartButtom.jpg" alt="presentation of restart buttom from Anubis Game, game section">
     </li>
 </ul>
@@ -63,16 +63,16 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <br>
 <ul>
     <li>
-        <p>When the user clicks in one the rock, paper, scissors buttom the Java Script code chooses arandom option for the Computer player (in this case "Anubis").</p>
+        <p>When the user clicks on one of the rock, paper, scissors buttons the Java Script code chooses a random option for the Computer player (in this case "Anubis").</p>
     </li>
     <li>
-        <p>Once the 2 choices are made in between the User and the Computer, the results are displayed on the top of the game section.</p>
+        <p>Once the 2 choices are made between the User and the Computer, the results are displayed at the top of the game section.</p>
     </li>
     <li>
-        <p>The winner will be the first who makes 5 point at the score section.</p>
+        <p>The winner will be the first who makes 5 points in the score section.</p>
     </li>
     <li>
-        <p>Once the 5 points are achieved, a text in dark blue color will be shown with the result of winner of the match, and the rock, paper, scissor option wont able to be selected anymore.</p>
+        <p>Once the 5 points are achieved, a text in dark blue color will be shown with the result of the winner of the match, and the rock, paper, or scissors option won't be able to be selected anymore.</p>
     </li>
 </ul>
 <br>
@@ -83,10 +83,10 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <h2>Social media Section</h2>
 <ul>
     <li>
-        <p>This section has the Symbols from GitHub, Instagran and Linkedln and all of them are linked with gallegodev, developerer of this website, respective social media pages.</p>  
+        <p>This section has the Symbols from GitHub, Instagram, and Linkedln, and all of them are linked with gallegodev, the developer of this website, respective social media pages.</p>  
     </li>
     <li>
-        <p>All the 3 Symbols have a hoover style so if the user has the arrow from the mouse pad on top of it the symbol will change color, giving the impression that the symbol is active and is functional to the user</p>
+        <p>All the 3 Symbols have a hoover style so if the user has the arrow from the mouse pad on top of it the symbol will change color, giving the impression that the symbol is active and functional to the user</p>
     </li>
 <img src="assets/images/footerLinks.jpg" alt="presentation of social media symbols from gallegodev developer creator of Anubis Game website.">
 <hr>
@@ -174,6 +174,7 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 </ul>
 
 # Deployment
+<br>
 <h2>This site was deployed to GitHub pages. The steps to deploy are as follows:</h2>
 <ul>
     <li>
@@ -193,7 +194,7 @@ Users of this website will be able to play an amazing Rock, Paper, Scissors game
 <h2>Content</h2>
 <ul>
     <li>
-        <p>The code to make social media<a href="https://gallegodev.github.io/love-running/" target="_blank" aria-label=" Visit Love Running webpage (Opens in another page)">Love Running</a> Project</p>
+        <p>The code to make social media <a href="https://gallegodev.github.io/love-running/" target="_blank" aria-label=" Visit Love Running webpage (Opens in another page)">Love Running</a> Project</p>
     </li>
 </ul>
 <br>
