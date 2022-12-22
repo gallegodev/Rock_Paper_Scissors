@@ -3,12 +3,12 @@
 let userScore = 0;
 let computerScore = 0;
 
-let userScore_span = document.getElementById("user-score");
-let computerScore_span = document.getElementById("computer-score");
+let userScoreSpan = document.getElementById("user-score");
+let computerScoreSpan = document.getElementById("computer-score");
 
-let rock_div = document.getElementById("rock");
-let paper_div = document.getElementById("paper");
-let scissors_div = document.getElementById("scissors");
+let rockDiv = document.getElementById("rock");
+let paperDiv = document.getElementById("paper");
+let scissorsDiv = document.getElementById("scissors");
 
 let restartBtn = document.getElementById('restartBtn');
 
@@ -37,14 +37,14 @@ function game(userChoice) {
             changeFrase.innerHTML = `${computerChoice} beats ${userChoice}, Anubis Won!`;
             /**Increment score if computer wins */
             computerScore++;
-            computerScore_span.innerHTML = computerScore;
+            computerScoreSpan.innerHTML = computerScore;
         } else {
             /**changes the innertext if player wins */
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = `${userChoice} beats ${computerChoice}, Challenger Won!`;
             /**Increment score if player wins */
             userScore++;
-            userScore_span.innerHTML = userScore;
+            userScoreSpan.innerHTML = userScore;
         }
     } else if (userChoice === 'paper') {
         if (computerChoice === 'scissors') {
@@ -53,14 +53,14 @@ function game(userChoice) {
             changeFrase.innerHTML = `${computerChoice} beats ${userChoice}, Anubis Won!`;
             /**Increment score if computer wins */
             computerScore++;
-            computerScore_span.innerHTML = computerScore;
+            computerScoreSpan.innerHTML = computerScore;
         } else {
             /**changes the innertext if player wins */
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = `${userChoice} beats ${computerChoice}, Challenger Won!`;
             /**Increment score if player wins */
             userScore++;
-            userScore_span.innerHTML = userScore;
+            userScoreSpan.innerHTML = userScore;
         }
     } else if (userChoice === 'scissors') {
         if (computerChoice === 'rock') {
@@ -69,14 +69,14 @@ function game(userChoice) {
             changeFrase.innerHTML = `${computerChoice} beats ${userChoice}, Anubis Won!`;
             /**Increment score if computer wins */
             computerScore++;
-            computerScore_span.innerHTML = computerScore;
+            computerScoreSpan.innerHTML = computerScore;
         } else {
             /**changes the innertext if player wins */
             let changeFrase = document.getElementById("mainFrase");
             changeFrase.innerHTML = `${userChoice} beats ${computerChoice}, Challenger Won!`;
             /**Increment score if player wins */
             userScore++;
-            userScore_span.innerHTML = userScore;
+            userScoreSpan.innerHTML = userScore;
         }
     }
     /**Stops the match and gives a text to determine the match winner */
@@ -95,17 +95,17 @@ function game(userChoice) {
 /**Function to create event listeners on the rock, paper, scissors buttons */
 
 function main() {
-    rock_div.addEventListener('click', function () {
+    rockDiv.addEventListener('click', function () {
         game("rock");
         
     });
 
-    paper_div.addEventListener('click', function () {
+    paperDiv.addEventListener('click', function () {
         game("paper");
         
     });
 
-    scissors_div.addEventListener('click', function () {
+    scissorsDiv.addEventListener('click', function () {
         game("scissors");
         
     });
